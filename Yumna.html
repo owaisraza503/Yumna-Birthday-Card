@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Yumna!</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #006400, #2e8b57, #ffb6c1, #ff1493, #ffdb58, #808080, #000000, #00008b, #e6e6fa);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 1000px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: opacity 0.5s ease;
+            overflow-y: auto; /* Add this line to allow scrolling */
+        }
+
+        h1,
+        p.initial {
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .card.hidden h1,
+        .card.hidden p.initial {
+            opacity: 0;
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            min-width: 150px;
+            max-width: 200px;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            background-color: #ee5a24;
+        }
+
+        #surpriseMessage {
+            display: none;
+            margin-top: 20px;
+            color: black;
+            font-size: 1.0em;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: left;
+        }
+
+        #surpriseMessage::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 3px;
+            background: red;
+            border-radius: 2px;
+        }
+
+        .message-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        @media (min-width: 600px) {
+            .message-content {
+                flex-direction: fixed;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 0.6px;
+				width: auto;
+				height: auto;
+				max-height: 768px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+				color: black;
+            }
+
+            p {
+                font-size: 14pt;
+                line-height: 1.5;
+		
+            }
+			
+			button {
+            padding: 10px 20px 10px 30px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 5px;
+			margin-bottom: 5px;
+            min-width: 150px;
+            max-width: 200px;
+            box-sizing: border-box;
+        }
+
+		   
+        }
+
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio id="birthdayTone" src="Happy_birthday_to_you_MIDI(chosic.com).mp3" loop></audio>
+    <div class="card" id="card">
+        <h1>Happy Birthday, Yumna!</h1>
+        <p class="initial">Wishing you a fantastic day filled with joy and happiness.</p>
+        <button id="revealMessage">Reveal</button>
+        <div id="surpriseMessage" class="message-content">
+            <img id="friendPhoto" src="Yumnaa.jpeg" alt="Friend's Photo">
+            <div>
+                <p><b>Yumna</b>, first of all wishing you a really happy birthday. This day is not only special for you but it is for me also, as if not for this day, you haven't been here and I didn't get to be friends with one of the most beautiful, kind, and caring human beings. So, I thank Allah for this.</p>
+                <p>We haven't started well in the university, we didn't get along during whole 3 years of that uni's life, but we had our little interactions where I often roast you, honestly speaking I roast you because I liked you during that time too, because I don't roast the people I don't like. Even before we became friends, I always known you as a good girl, and now after I get to know you more, it turns out you are not good, but you are the best.</p>
+                <p>We became friends during the very last of our university, the time where most of the friends loose connections, we somehow have built the most strong one. We became friends over the most randomest thing and time. I don't know how it happens, but I know for sure that it happens for the best. Still, some people are figuring out how we became friends. lol.</p>
+                <p>I still find it strange that a girl I used to roast without caring much is now became the most important person of my life, whom I don't wanna lose at any cost. I am sorry for all of these roasting though. Now, it always amazes me how time have changed the things unexpectedly. Now, I afraid to speak the words that can hurt you or get you angry, even though I like your anger but just don't want it be because of me.</p>
+                <p>I like the talk and gossips we do; I love it when you share things with me, I love to listen to your problems but I hate it when you fall in to the problems because I can't get to do much about it and get rid of them, and also because I like the happy version of you, which makes you more beautiful, but it is cute when you care and think about the little things too.</p>
+                <p>I pray that this bond of our will never breaks. I didn't have a lot of words to describe how much I love our friendship, but somehow managed to write this little essay. Hope you liked it.</p>
+                <p>I have nothing more to say, but have lots of duas for you, May Allah help you in every moment of your life, may you get success in your career, may you have the life you always imagined, may you become more beautiful soul than you already are, may your smile will never fade, may you anxiety will never kick in, may everything work out in your favor, may you get problems too, so you got to get closer to Allah more. May you have the beautiful, prosper life ahead. May Allah accept all my duas which I made for you. Aameen.</p>
+                <p>Wishing you a very happy birthday again, and thank you for existing in my life. ❤️</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('revealMessage').addEventListener('click', () => {
+            const surpriseMessage = document.getElementById('surpriseMessage');
+            const revealButton = document.getElementById('revealMessage');
+            const friendPhoto = document.getElementById('friendPhoto');
+            const birthdayTone = document.getElementById('birthdayTone');
+            const card = document.getElementById('card');
+
+            surpriseMessage.style.display = 'block';
+            revealButton.style.display = 'none';
+            friendPhoto.style.display = 'block';
+            birthdayTone.play();
+            card.classList.add('hidden'); // Hide the initial heading and paragraph
+        });
+    </script>
+</body>
+</html>
